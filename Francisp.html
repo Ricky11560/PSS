@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+     <!-- basic -->
+      <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <!-- mobile metas -->
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <meta name="viewport" content="initial-scale=1, maximum-scale=1">
+      <!-- site metas -->
+
+    <title>UCHENDU FRANCIS</title>
+
+    <style>
+		/* Add some basic styling */
+		body {
+			font-family: Arial, sans-serif;
+		}
+		.password-container {
+			width: 300px;
+			margin: 100px auto;
+			padding: 20px;
+			border: 1px solid #ccc;
+			border-radius: 10px;
+			box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            	background-image: url('IMG_4660.png'); 
+		}
+       
+
+       	</style>
+
+   
+          <style>
+
+
+/* Result css */
+
+
+
+
+            .blurred-background-section {
+        position: relative; /* Essential for positioning the overlay */
+        width: 100%;
+        height: 400px; /* Adjust height as needed */
+        background-image: url('IMG_4660.png'); /* Replace with your image path */
+        background-size: cover;
+        background-position: center;
+        display: inline-block; /* For centering content if desired */
+        justify-content: center;
+        align-items: center;
+        overflow: hidden; /* Ensures blur doesn't extend beyond section */
+    }
+
+ 
+   .content-overlay {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(255, 255, 255, 0.2); /* Semi-transparent overlay for effect */
+        backdrop-filter: blur(8px); /* Adjust blur strength as needed */
+        -webkit-backdrop-filter: blur(8px); /* For Safari compatibility */
+        display: inline-block;
+        justify-content: center;
+        align-items: center;
+        color: white; /* Example text color for readability */
+        text-align: center;
+        z-index: 1; /* Ensures overlay is above background but below content */
+    }
+
+    .content-overlay h1,
+    .content-overlay p {
+        z-index: 2; /* Ensures content is above the blurred overlay */
+    }   
+         
+         
+         
+         
+         body { font-family: Arial, sans-serif; } 
+         table { border-collapse: collapse; } 
+         th, td { border: 1px solid black; padding: 10px; text-align: center; } 
+         .logo { width: 200px; height: 200px; border: 1px solid black; margin: 10px; } 
+         .passport { width: 200px; height: 200px; border: 1px solid black; margin: 10px; margin-bottom:  70px; }
+         .assports{ width: 200px; height: 200px; border: 1px solid black; margin: 10px; margin-bottom:  20px;  }
+         
+
+
+         @media (Max-width:700px){
+    .remark {width: 27%; background-color: greenyellow; height: 200PX;
+      padding: 15px; margin-left: 56px;
+       margin-top: 30px; display: inline-block;
+        border-radius: 24px;
+      display: flex;
+      flex-direction: column;}
+
+         .remark .remarks .h1 {margin: auto; color: aliceblue}
+
+     }
+
+     *-------course
+.course{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 100px;
+}
+
+
+
+.row{
+    margin: 5%;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+.course-col{
+    flex-basis: 31%;
+    background: green;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    padding: 20px 12px;
+    box-sizing: border-box;
+    transition: 0.5s;
+    height: 30vh;
+}
+
+h3{
+    text-align: center;
+    font-weight: 600;
+    margin: 10px 0;
+    color: #fff;
+   
+}
+
+.course-col p{
+    color: #fff;
+    font-size: 15px;
+    justify-content: center;
+    align-content: space-around;
+      
+  }
+.course-col:hover{
+    box-shadow: 0 0 20px 0px rgba(0,0,0,0.2);
+}
+
+@media(max-width:700px){
+    .row{
+        flex-direction: column;
+    }
+  
+
+    
+}
+
+</style>
+</head>
+<body>
+
+
+   <section class="background"
+   >
+      
+<div id="login-screen"  class="password-container">
+    <img src="IMG_4660.PNG" alt="" style=" width: 70px;  ">
+          <h2>Enter Password</h2>
+    <input type="password" id="password-input" placeholder="Password"  style=" width: 200px; height: 30px; font-size: 13px; ">
+    <button onclick="checkPassword()" style="  background-color: rgb(97, 158, 97); border-radius: 5px; " >Enter</button>
+    <p id="error-message" style="color: red;"></p>
+    
+  
+</div>
+
+</section>
+
+<div id="protected-content" style="display:none;">
+    
+                  <section class="blurred-background-section">
+        <div class="content-overlay">
+
+
+            <div style="text-align: center;"> 
+                <h1 style="color: gold; font-size: 30px ;margin-bottom: 0%;">Patess Standard School</h1> 
+                <h2  style="color: gold; font-size:17px ; margin-bottom: 0%; margin-top: 2px">24, Benevolent Strt., Off Okhurobo strt, Off Uwelu Rd. Benin City, Nigeria</h2>
+             </div> 
+             <div style="display: flex; justify-content: space-between;"> 
+                <div class="logo"><img class="passport" src="IMG_4660.PNG" alt=""></div> <div class="passport">
+<img class="passport" src="Francis.PNG" alt="">
+                </div>
+             </div> 
+             
+        </div>
+    </section>
+
+             <table style="width: 100%;"> 
+                <tr> <th>TOTAL</th> 
+                    <th>Subject</th>
+                     <th>Grade</th> 
+                    </tr> 
+                    <tr> <td>30</td> 
+                        <td>English Language</td>
+                         <td><span style="color: red;">F</span></td> </tr> <tr>
+                             <td>36</td> <td>Mathematics</td> 
+                             <td><span style="color: red;">F</span></td> </tr> 
+                             <tr> <td>34</td>
+                                 <td>Pre Vocational Studiies</td>
+                                  <td><span style="color: red;">F</span></td> </tr> 
+                                  <tr> 
+                                    <td>32</td> 
+                                    <td>Religion and National Value</td>
+                                     <td><span style="color: red;">F</span></td> </tr> <tr> <td>58</td> <td>Cultural and Creative Art</td> <td>C</td> </tr>
+                                      <tr> <td>49</td>                                   
+                                        <td>Business Studies</td> <td>D</td> </tr> <tr> <td>60</td> 
+                                            <td>Basic Science and Technology</td> <td>B</td> </tr> <tr>
+                                                <td>26</td> 
+                                            <td>Christain Religious Studies</td> <td><span style="color: red;">F</span></td> </tr>
+                                            
+                                            <tr>
+                                                 <td></td>
+                                                 <td></td><td></td>
+                                                       </tr>
+                                                       <tr> 
+                                    <td></td> 
+                                    <td></td>
+                                     <td></td> </tr> <tr> <td><b>TOTAL MARK:</b> 325</td> <td><b>AVE. PERCENTAGE:</b> 41%</td> <td><b>NO OF TIMES ABSENT:</b>10</td> </tr>
+                                      <tr> 
+                                                       </tr>
+                                                  </table>
+                                     
+                                                
+
+
+<div class="containers">
+<div class="container reveal">
+    
+    <div class="row">
+        <div class="course-col hidden">
+    <h3>Class Teacher Remark</h3>
+    <p>Improvement can be made.</p>
+            </div>
+    
+         <div class="course-col hidden">
+    <h3>Proprietor Remark</h3>
+    <p>Work harder for a better result next term.</p>
+            </div>
+    
+                  <div class="course-col hidden">
+    <h3>Announcement</h3>
+    <p>School resumes on the 12th January 2025.</p>
+            </div>
+                    </div>
+</div>
+                                                  </section>
+                                                               
+</div>
+
+<script>
+    function checkPassword() {
+        // !!! EXPOSED PASSWORD !!!
+        const CORRECT_PASSWORD = "UF202537"; 
+
+        const enteredPassword = document.getElementById('password-input').value;
+        const errorMessage = document.getElementById('error-message');
+
+        if (enteredPassword === CORRECT_PASSWORD) {
+            document.getElementById('login-screen').style.display = 'none';
+            document.getElementById('protected-content').style.display = 'block';
+        } else {
+            errorMessage.textContent = "Incorrect Password. Try again.";
+        }
+    }
+</script>
+
+</body>
+</html>
