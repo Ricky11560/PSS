@@ -145,12 +145,32 @@ margin: 20px 20px;
 
 
 }
+        
+alert
+        
+.alert {
+  padding: 20px;
+  background-color: #f44336; /* Red */
+  color: white;
+  margin-bottom: 15px;
+}
+.closebtn {
+  float: right;
+  cursor: pointer;
+  font-size: 22px;
+}
+        
     </style>
 </head>
 <body>
     
 <header>
-    
+
+
+    <div class="alert">
+  <strong>Warning!</strong> Congratulations!🍾
+  <span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span>
+</div>
 
 <div class="portfolio-container">
 <div class="portfolio-row header-wrap">
